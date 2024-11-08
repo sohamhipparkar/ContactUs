@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Serve the HTML file
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/contactus.html');
+    res.sendFile(__dirname + '/index.html');
 });
 
 // Define schema and model for contact form data
